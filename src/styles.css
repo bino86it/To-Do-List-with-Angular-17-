@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  font-family:'Pacifico', sans-serif;
+  background-image:url('C:/Users/bino8/Desktop/Angular/angular-TodoList/src/app/images/sfondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+h1{
+  text-align:center;
+  font-size:40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%; 
+  margin: 0 auto;
+  border-radius: 5px;
+  font-size:35px;
+  min-height:65vh;
+}
+
+
+.todo-list {
+  width:100%;
+  padding-inline-start: 0;
+}
+
+
+.todo-list li {
+  list-style:none;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  width:100%;
+  margin-top:1.5rem
+}
+
+input[type="checkbox"] {
+  margin:0;
+
+  font: inherit;
+  accent-color: #028a0f;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid green;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+
+input[type="text"] {
+  padding:.8rem 0;
+  margin:0;
+  border-radius:10px;
+  border:solid grey 4px;
+  width:100%;
+  text-align:center;
+}
+
+.btn-delete{
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #999;
+  font-size: 30px;      
+}

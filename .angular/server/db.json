@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "title": "repair the car",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "title": "buy the chicken",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "go to the gym",
+      "completed": false,
+      "id": 3
+    }
+  ]
+}
